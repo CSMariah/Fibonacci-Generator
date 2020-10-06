@@ -29,6 +29,6 @@ function generate() {
 }
 
 function reset() {
-  document.getElementById("fnumber").innerHTML = "0";
+    document.getElementById("fnumber").value = "0";
   document.getElementById("fnumbers").innerHTML = "";
 }
