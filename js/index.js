@@ -20,6 +20,12 @@ function fibonacciGenerator(n)
 function generate() {
   var num = document.getElementById("fnumber").value;
   var output = fibonacciGenerator(num);
-  document.getElementById("fnumbers").innerHTML = "The "+ num + " Fibonacci Numbers are: \n"+ output.join('\r\n');
-  alert("The " + num + " Fibonacci Numbers are: \n" + output);
+  if (num == 0 || num == 1) {
+    document.getElementById("fnumbers").innerHTML = "The "+ num + " Fibonacci Number is: \n"+ output.join('\r\n');
+    alert("The " + num + " Fibonacci Number is: \n" + output);
+  } else {
+    document.getElementById("fnumbers").innerHTML = "The "+ num + " Fibonacci Numbers are: \n"+ output.join('\r\n');
+    alert("The " + num + " Fibonacci Numbers are: \n" + output);
+  }
+
 }
