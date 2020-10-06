@@ -1,0 +1,53 @@
+body {
+  background-color: #ffeadb;
+  text-align: center;
+}
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
+  color: #f96d80;
+}
+label, p {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.5rem;
+  color: #bb596b;
+}
+#theSection {
+  margin-top: 150px;
+  margin-bottom: 50px;
+
+}
+
+.btn {
+  background: #faac9b;
+  background-image: -webkit-linear-gradient(top, #faac9b, #fce7e2);
+  background-image: -moz-linear-gradient(top, #faac9b, #fce7e2);
+  background-image: -ms-linear-gradient(top, #faac9b, #fce7e2);
+  background-image: -o-linear-gradient(top, #faac9b, #fce7e2);
+  background-image: linear-gradient(to bottom, #faac9b, #fce7e2);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Patrick Hand', cursive;
+  color: #679b9b;
+  font-size: 20px;
+  padding: 5px 20px 5px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: solid #ea907a 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e8b3a7;
+  background-image: -webkit-linear-gradient(top, #e8b3a7, #ff8a70);
+  background-image: -moz-linear-gradient(top, #e8b3a7, #ff8a70);
+  background-image: -ms-linear-gradient(top, #e8b3a7, #ff8a70);
+  background-image: -o-linear-gradient(top, #e8b3a7, #ff8a70);
+  background-image: linear-gradient(to bottom, #e8b3a7, #ff8a70);
+  text-decoration: none;
+}
+
+footer {
+  margin-bottom:150px;
+}
